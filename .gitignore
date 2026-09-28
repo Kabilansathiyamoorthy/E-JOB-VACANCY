@@ -1,0 +1,37 @@
+# ---------- Environment / secrets ----------
+.env
+*.env
+!/.env.example
+
+# ---------- Java / Maven ----------
+backend/target/
+*.class
+*.jar
+!backend/mvnw/wrapper/maven-wrapper.jar
+.mvn/
+.tooling/
+m2-repo/
+
+# ---------- Flutter / Dart ----------
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/.idea/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/ios/Pods/
+mobile/*.iml
+.dart_tool/
+.packages
+
+# ---------- Uploads / runtime data ----------
+uploads/
+data/
+*.log
+
+# ---------- OS / editor ----------
+.DS_Store
+Thumbs.db
+*.swp
